@@ -49,7 +49,7 @@ Docker är ett program som hanterar andra program. Vi använder det för att ins
 1. `docker exec -it my-postgres bash` - gå in i container
 2. `psql -U postgres` - starta klient och ange lösenord
 3. `\l` - lista upp databaser
-4. `CREATE DATABASE mydb` - skapa egen databas
+4. `CREATE DATABASE mydb;` - skapa egen databas
 5. `\c mydb` - anslut till egen databas
 
 ---
